@@ -1,0 +1,51 @@
+:root {
+  --color-bg: #05090d;
+  --color-surface: #080f14;
+  --color-card: #0a1218;
+  --color-card-hover: #0d1a20;
+
+  --color-primary: #00f59b;
+  --color-primary-hover: #35ffb0;
+  --color-primary-muted: #123c30;
+
+  --color-text: #f3f7fa;
+  --color-text-secondary: #b3c0cc;
+  --color-text-muted: #7e8b97;
+  --color-border: #24333d;
+  --color-code: #70e8ff;
+  --color-success: #36e58c;
+
+  --gradient-primary: linear-gradient(110deg, #00f59b 0%, #00d98a 100%);
+  --gradient-hero: radial-gradient(
+    ellipse at 75% 45%,
+    rgba(0, 245, 155, 0.13) 0%,
+    rgba(0, 245, 155, 0.04) 35%,
+    transparent 70%
+  );
+
+  --font-primary: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "Fira Code", Consolas, monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  --radius-button: 8px;
+  --radius-card: 8px;
+  --radius-panel: 10px;
+  --radius-pill: 999px;
+
+  --container-max: 1440px;
+  --header-height: 68px;
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow: 300ms ease;
+}

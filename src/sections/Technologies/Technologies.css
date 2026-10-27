@@ -1,0 +1,18 @@
+.technologies__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-4);
+}
+
+@media (max-width: 768px) {
+  .technologies__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-3);
+  }
+}
+
+@media (max-width: 420px) {
+  .technologies__grid {
+    grid-template-columns: 1fr;
+  }
+}

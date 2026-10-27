@@ -1,0 +1,19 @@
+.social-links {
+  display: flex;
+  gap: var(--space-6);
+}
+
+.social-links__link {
+  display: grid;
+  place-items: center;
+  padding: 2px;
+  color: var(--color-text-secondary);
+  transition:
+    color var(--transition-normal),
+    transform var(--transition-normal);
+}
+
+.social-links__link:hover {
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}

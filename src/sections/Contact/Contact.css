@@ -1,0 +1,50 @@
+.contact__intro {
+  margin-top: calc(-1 * var(--space-2));
+  font-size: 14px;
+  color: var(--color-text-secondary);
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: var(--space-5);
+}
+
+.contact__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 245, 155, 0.22);
+  border-radius: 6px;
+  background: var(--color-card);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  transition:
+    border-color var(--transition-normal),
+    color var(--transition-normal),
+    background-color var(--transition-normal);
+}
+
+.contact__link svg {
+  flex-shrink: 0;
+  color: var(--color-primary);
+}
+
+.contact__link-text {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.contact__link:hover {
+  border-color: var(--color-primary);
+  background: var(--color-card-hover);
+  color: var(--color-primary);
+}
+
+.contact__resume {
+  width: 100%;
+  margin-top: var(--space-5);
+}

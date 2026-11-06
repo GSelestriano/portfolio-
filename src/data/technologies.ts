@@ -40,9 +40,4 @@ export const techCategories: TechCategory[] = [
     technologies: ['Jest', 'Vitest', 'SonarQube', 'Postman'],
     icon: { line: 'shieldCheck' },
   },
-  {
-    title: 'Inteligência Artificial',
-    technologies: ['RAG', 'Soluções com LLM'],
-    icon: { line: 'sparkles' },
-  },
 ]

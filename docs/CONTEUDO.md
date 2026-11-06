@@ -1,6 +1,6 @@
 # Conteúdo do Portfólio
 
-Dados reais que serão usados nas seções do portfólio. Fonte: currículo (`Guilherme S (2).pdf`) e informações fornecidas diretamente.
+Dados reais que serão usados nas seções do portfólio. Fonte: currículo (`public/curriculo-guilherme-selestriano.pdf`) e informações fornecidas diretamente.
 
 > Mantenha este arquivo atualizado. Os dados em `src/data/` devem refletir o que está aqui.
 
@@ -17,7 +17,7 @@ Dados reais que serão usados nas seções do portfólio. Fonte: currículo (`Gu
 - **E-mail:** gselestriano@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/guilherme-selestriano-a6330b269/
 - **GitHub:** https://github.com/GSelestriano
-- **Currículo:** `Guilherme S (2).pdf` (copiar para `public/` como arquivo de download)
+- **Currículo:** `public/curriculo-guilherme-selestriano.pdf` (arquivo de download)
 - Telefone: **não exibir** no portfólio.
 
 ## Hero — texto de apresentação (resumo do perfil)
@@ -49,7 +49,6 @@ Meu objetivo é crescer profissionalmente, participar de projetos desafiadores e
 | Banco de dados | PostgreSQL, MySQL, Redis, Supabase, Prisma |
 | DevOps e ferramentas | Docker, Git, GitHub, Vercel, Render, PM2 |
 | Testes e qualidade | Jest, Vitest, SonarQube, Postman |
-| Inteligência artificial | RAG, soluções com LLM |
 
 ## Experiência
 
